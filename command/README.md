@@ -6,3 +6,4 @@ Level 4 -> 5: ls, cd inhere, ls, du --help, find --help, cat --help, cat ./-file
 Level 5 ->6: ls, cd inhere, man find, find -size 1033c,  cat ./maybehere07/.file2 
 Level 6 ->7: ls, ls -la, man find, find --help, find -user bandit7 -group bandit6 -size 33c, find / -type f -user bandit7 -group bandit6 -size 33c,  cat /var/lib/dpkg/info/bandit7.password
 Level 7 ->8: ls, cd data.txt, cat data.txt, man grep, grep --help, grep "millionth", cat data.txt|grep "millionth"
+Level 8 ->9: ls, cat data.txt, man uniq, uniq -u data.txt, uniq --help, uniq -u data.txt out, sort --help, man sort, sort data.txt, sort data.txt|uniq -u
