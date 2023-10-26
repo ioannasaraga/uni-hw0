@@ -8,3 +8,4 @@ Level 6 ->7: ls, ls -la, man find, find --help, find -user bandit7 -group bandit
 Level 7 ->8: ls, cd data.txt, cat data.txt, man grep, grep --help, grep "millionth", cat data.txt|grep "millionth"
 Level 8 ->9: ls, cat data.txt, man uniq, uniq -u data.txt, uniq --help, uniq -u data.txt out, sort --help, man sort, sort data.txt, sort data.txt|uniq -u
 Level 9 ->10: ls, cat data.txt, man strings, strings --help,sort data.txt, grep data.txt "===", sort data.txt|grep data.txt, strings data.txt|grep "===" 
+Level 10 ->11: ls, cat, base64 --help, base64 -d data.txt
