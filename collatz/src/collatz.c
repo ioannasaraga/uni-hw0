@@ -20,7 +20,7 @@ unsigned long long  collatz(unsigned long long n){
 //έπειτα ζήτησα από τον χρήστη 2 μεταβλητές, στην περίπτωση που δίνει περισσότερες ή λιγότερες του εμφανίζεται το αντίστοιχο μήνυμα//
 int main(int argc, char**argv){
     if(argc !=3){
-        printf("check your varriants\nerror\n");
+        printf("check your varriants,error\n");
        return 1;
     }
     int min=atoi(argv[1]);
