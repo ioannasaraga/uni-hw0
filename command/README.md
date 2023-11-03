@@ -1,11 +1,11 @@
-Level 0 -> 1: ls, cat readme
-Level 1 -> 2: ls, cat --help, cat ./-
-Level 2 -> 3: ls, man cat, cat "spaces in this filename"
-Level 3 -> 4: ls, find inhere, cat inhere/.hidden
-Level 4 -> 5: ls, cd inhere, ls, du --help, find --help, cat --help, cat ./-file00, cat ./-file01, cat ./-file02, cat ./-file03, cat ./-file04, cat ./-file05, cat ./-file06, cat ./-file07 
-Level 5 ->6: ls, cd inhere, man find, find -size 1033c,  cat ./maybehere07/.file2 
-Level 6 ->7: ls, ls -la, man find, find --help, find -user bandit7 -group bandit6 -size 33c, find / -type f -user bandit7 -group bandit6 -size 33c,  cat /var/lib/dpkg/info/bandit7.password
-Level 7 ->8: ls, cd data.txt, cat data.txt, man grep, grep --help, grep "millionth", cat data.txt|grep "millionth"
-Level 8 ->9: ls, cat data.txt, man uniq, uniq -u data.txt, uniq --help, uniq -u data.txt out, sort --help, man sort, sort data.txt, sort data.txt|uniq -u
-Level 9 ->10: ls, cat data.txt, man strings, strings --help,sort data.txt, grep data.txt "===", sort data.txt|grep data.txt, strings data.txt|grep "===" 
-Level 10 ->11: ls, cat, base64 --help, base64 -d data.txt
+Level 0 -> 1: ls, cat readme (έλεγξα τα αρχεία που είναι αποθηκευμένα και έλεγξα τι έλεγε το αρχείο "readme")
+Level 1 -> 2: ls, cat --help, cat ./- (έλεγξα τα αρχεία που είναι αποθηκευμένα, αναζήτησα το πώς μπορώ να ανοίξω το αρχείο με όνομα "-" και έλεγξα τι έλεγε το αρχείο "-")
+Level 2 -> 3: ls, man cat, cat "spaces in this filename"  (έλεγξα τα αρχεία που είναι αποθηκευμένα, αναζήτησα το πώς μπορώ να ανοίξω το αρχείο με όνομα "spaces in this filename" και έλεγξα τι έλεγε το αρχείο "spaces in the filename")
+Level 3 -> 4: ls, find inhere, cat inhere/.hidden (έλεγξα τα αρχεία που είναι αποθηκευμένα, αναζήτησα ποιά αρχεία έχουν το όνομα "inhere" και βρήκα το κρυμμένο και το άνοιξα)
+Level 4 -> 5: ls, cd inhere, ls, du --help, find --help, cat --help, cat ./-file00, cat ./-file01, cat ./-file02, cat ./-file03, cat ./-file04, cat ./-file05, cat ./-file06, cat ./-file07 (έλεγξα τα αρχεία που είναι αποθηκευμένα, μπήκα στον φάκελο inhere, έλεγξα τα αρχεία που είναι αποθηκευμένα και έλεγξα ένα ένα τα αρχεία μέχρι να βρω τον κωδικό)
+Level 5 ->6: ls, cd inhere, man find, find -size 1033c,  cat ./maybehere07/.file2 (έλεγξα τα αρχεία που είναι αποθηκευμένα, μπήκα στον φάκελο inhere, αναζήτησα πώς λειτουργει η εντολή "find" και έψαξα το αρχέιο με το ζητούμενο μέγεθος)
+Level 6 ->7: ls, ls -la, man find, find --help, find -user bandit7 -group bandit6 -size 33c, find / -type f -user bandit7 -group bandit6 -size 33c,  cat /var/lib/dpkg/info/bandit7.password (έλεγξα τα αρχεία που είναι αποθηκευμένα, αναζήτησα πώς λειτουργει η εντολή "find" και άνοιξα το αρχείο που αποδείχθηκε ότι βρίσκεται ο κωδικός)
+Level 7 ->8: ls, cd data.txt, cat data.txt, man grep, grep --help, grep "millionth", cat data.txt|grep "millionth"(έλεγξα τα αρχεία που είναι αποθηκευμένα, έψαξα το πώς λειτουργεί η εντολή "grep" , δοκίμασα διάφορες εντολές μέχρι να βρω αυτήν που λειτούργησε δηλαδή των συνδυαμό των δύο)
+Level 8 ->9: ls, cat data.txt, man uniq, uniq -u data.txt, uniq --help, uniq -u data.txt out, sort --help, man sort, sort data.txt, sort data.txt|uniq -u (έλεγξα τα αρχεία που είναι αποθηκευμένα, έψαξα το πώς λειτουργεί η εντολή "uniq "και "sort", δοκίμασα διάφορες εντολές μέχρι να βρω αυτήν που λειτούργησε δηλαδή των συνδυαμό των δύο)
+Level 9 ->10: ls, cat data.txt, man strings, strings --help,sort data.txt, grep data.txt "===", sort data.txt|grep data.txt, strings data.txt|grep "===" (έλεγξα τα αρχεία που είναι αποθηκευμένα, έλεγξα τι έχει το αρχείο "data.txt" και αναζήτησα πώς λειτουργούν οι εντολές "strings" και "grep" καθώς και πειραματίστηκα με κάποιες εντολές)
+Level 10 ->11: ls, cat, base64 --help, base64 -d data.txt (έλεγξα τα αρχεία που είναι αποθηκευμένα, έψαξα πώς λειτουργεί η εντολή "base64" και την χρησιμποιήσα για να μεταγλωτίσω το αρχείο και να βρω τον κωδικό)
